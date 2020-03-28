@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu {
+    height: 90px;
+    height: 90px;
+    background-color: rgb(102,102,102);
+    width:100%;
+    
+}
+.menu li{
+    float: left;
+    font-family: impact;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #fff;
+}
+.menu a{
+    color:#fff;
+}
+.menu img{
+    margin-left: 16%;
+    float: left;
+    margin-top: 10px;
+}
+.menu .menu1{
+    float: left;
+    margin-top: 22px;
+}
+.menu .menu2{
+    float: right;
+    margin-top: 22px;
+}
+.logo{
+    width: 12%;
+}
+.acessibilidade{
+    margin-left: 94%;
+    width: 6%;
+    margin-top: 40px;
+    height: 200px;
+    border: solid 4px #000;
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+}
+.acessibilidade .contraste{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+.acessibilidade .aumentar{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.acessibilidade .diminuir{
+    width: 70%;
+    margin-left: 15%;
+}
+.fundo{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    z-index: 1;
+}
+.disponivel{
+    background-color: #757575;
+
+}
+.icone-perso{
+    width: 30%;
+}
+.plataformas{
+    float: left;
+    width: 50%;
+}
+.disponivelBot{
+    width: 50%;
+    float: left;
+    margin-top: 26%;
+}
+.plataformas-img img{
+    width: 12%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+#sub-img{
+    width: 28%;
+    float: right;
+}
+#img1{
+    margin-left: 55%;
+}
+.jogue{
+    position: absolute;
+    z-index: 2;
+    margin-top: 35%;
+    margin-left: 42%;
+}
+.separacao{
+    margin-top: 650px;
+}
+.conteudo p{
+    padding-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}
+footer{
+    background-color: #757575;
+    height: 100px;
+}
+.fort-disponivel img{
+    width: 80px;
+    margin-top: 1%;
+    float: left;
+
+}
+#img2{
+    margin-right: 50px;
+}
+footer p{
+    width: 45%;
+    text-align: justify;
+    margin-top: 1%; 
+    float: left;
+    color: #fff;
+
+}
+#img3{
+    float: right;
+    margin-right: 30px;
+}
+.download{
+    height: 450px;
+    background-image: linear-gradient(to bottom, #009966, #009999);
+}
+.download img{
+    width: 22%;
+    margin-left: 38.7%;
+    margin-top: 5%;
+}
+.plataformas-baixar{
+    background-image: linear-gradient(to bottom, #009999, #00ccff);
+}
+.escolha-uma{
+    width: 40%;
+    margin-left: 30%;
+    background-color: #ccff33;
+    height: 40px;
+}
+.escolha-uma p{
+    font-family: impact;
+    font-size: 30px;
+    text-align: center;
+}
+.opcoes-plataformas{
+    width:40%;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.opcoes-plataformas li{
+    width: 35%;
+    margin-left: 10%;
+    float: left;
+    height: 200px;
+    margin-bottom: 5%;
+    background-color: #ccff33;
+}
+.opcoes-plataformas li img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.logotipo img{
+    margin-right: 30%;
+
+}
+.personagem1 {
+    width: 15%;
+    float: right;
+    z-index: 999;
+    margin-top: 17.6%;
+
+
+}
+.personagem2 {
+    margin-right: 10%;
+    width: 15%;
+    float: left;
+    z-index: 999;
+}
+#opcoes-plataformas{
+    
+}
+@media only screen and (max-width: 900px){
+    
+}

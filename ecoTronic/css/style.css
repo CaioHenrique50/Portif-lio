@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    
+}
+label{
+    font-family: 'Raleway', sans-serif;
+}
+.imagem_fundo{
+    height: 800px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    opacity: 1.5;
+}
+
+.titulo{
+    position: absolute;
+    z-index: 111;
+    color: #000;
+    margin-left: 20%;
+    margin-top: 20%;
+    text-align: center;
+    border: solid 4px  #000;
+    border-radius: 5px;
+    width: 60%;
+    height: 250px;
+    font-size: 20px;
+}
+.titulo p{
+    margin-top: 2%;
+    color: rgb(150,193,31);
+    text-shadow: 3px 3px #000;
+    font-size: 45px;
+    font-family: 'Bowlby One', cursive;
+}
+.menu {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: #96c11f;
+}
+.logo{
+    width: 13%;
+    float: left;
+}
+ul li{
+    list-style: none;
+    font-family: arial;
+}
+.menu ul li{
+    float: right;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 23px;
+    color: #fff;
+    font-size:20px;
+}
+.menu ul{
+    margin-right: 2%;
+}
+.login{
+    background-color: #96c11f;
+    width: 30%;
+    height: 240px;
+    float: right;
+    margin-top: 75px;
+    position: absolute;
+    margin-left: 69%;
+    border-radius: 10px;
+    display: none;
+}
+.login input{
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.login button{
+    width: 35%;
+    margin-left: 10%;
+    height: 30px;
+}
+.login .logar-com img{
+    width: 12%;
+    margin-right: 24%;
+    
+}
+.cadastrar{
+    position: absolute;
+    z-index: 6666;
+    margin-top: 80px;
+    width:  25%;
+    height: 60px;
+    margin-left: 38%;
+    font-size: 30px;
+    font-family: 'Bowlby One', cursive;
+    background-color: #96c11f;
+    border: none;
+    border-radius: 10px;
+    
+}
+.separacao{
+    padding-top: 800px;
+}
+.redes img{
+    float: right;
+    width: 3%;
+    margin-top: 12px;
+    margin-left: 10px;
+    
+}
+.processos img{
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 26%;
+}
+.titulo-texto{
+    padding-top: 60px;
+    text-align: center;
+        text-shadow: 2px 2px #000;
+    font-size: 45px;
+    font-family: 'Bowlby One', cursive;
+    text-align: center;
+    color: #96c11f;
+}
+.fundo{
+    
+    width: 100%;
+    height: 830px;
+    position: absolute;
+    z-index: 1;
+}
+
+.baixe{
+    position: absolute;
+    z-index: 2;
+    margin-left: 44.4%;
+    margin-top: 250px;
+    color: #fff;
+    font-family: impact,arial;
+    font-size: 50px;
+    text-shadow: 3px 3px #000;
+}
+.problema-solucao{
+    margin-top: 900px;
+}
+.problema{
+    width: 48%; 
+    float: left;
+    border-right: solid 2px #96c11f;
+}
+.problema h2{
+    text-shadow: 2px 2px #000;
+    font-size: 45px;
+    text-align: center;
+    color: #96c11f;
+    font-family: 'Bowlby One', cursive;
+}
+.problema p{
+    font-family: 'Raleway',impact,arial;
+
+    margin: 150px 150px;
+    text-align: justify;
+    
+}
+.solucao {
+    width: 50%;
+    float: right;
+    
+}
+.solucao p {
+    font-family: 'Raleway',impact,arial;
+    padding: 150px 150px;
+    text-align: justify;
+}
+.solucao h2{
+    text-shadow: 2px 2px #000;
+    font-size: 45px;
+    font-family: 'Bowlby One', cursive;
+    text-align: center;
+    color: #96c11f;
+}
+.parceiros{
+    margin-top: 600px;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+}
+.parceiros img{
+    margin-top: 120px;
+    float: left;
+    width: 500px;
+    margin-left: 12%;
+}
+.parceiros h2{
+    text-shadow: 2px 2px #000;
+    font-size: 45px;
+    text-align: center;
+    color: #96c11f;
+    font-family: 'Bowlby One', cursive;
+}
+.contatos{
+    margin-top: 300px;
+}
+.contatos input{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-size: 25px;
+}
+.contatos textarea{
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+.contatos h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px #000;
+    font-size: 45px;
+    text-align: center;
+    color: #96c11f;
+    font-family: 'Bowlby One', cursive;
+}
+.contatos button{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 10%;
+    height: 50px;
+    font-size: 30px;
+    font-family: impact,arial;
+    background-color: #96c11f;
+    border:none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #96c11f;
+}
+.divisoria{
+    padding-top: 100px;
+}
+.dashboard{
+    width: 26%;
+    height: 795px;
+    background-color: #96c11f;
+    float: left;
+}
+.user{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.nome-user{
+    font-size: 25px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 150px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.itens {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+.itens li{
+    padding-bottom: 30px;
+    margin-left: 20px;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.aparelhos{
+    width: 75%;
+    background-color: #fff;
+    height: 100px;
+    margin-left: 25%;
+    border-bottom: solid 1px #2b480d;
+}
+.indice{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    border-right: solid 1px #96c11f;
+    font-family: arial,'Raleway', sans-serif;
+}
+.produto{
+    font-family: arial,'Raleway', sans-serif;
+    font-size: 30px;
+    margin-left: 7%;
+    border-right: solid 1px #96c11f;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20%;
+}
+.preco{
+    
+}
+.total{
+    font-size: 30px;
+    margin-left: 1%;
+}
+.cadastrar{
+    margin-left: 73%;
+    height: 270px;
+    display: none;
+}
+.cadastrar input{
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+.cadastrar button{
+    width: 40%;
+    margin-left: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.liberacao{
+    color: #fff;
+    background-color: #676767;
+}
+.pedidos-dash{
+    text-align: center;
+    font-family: 'Bowlby One', cursive;
+    font-size: 40px;
+    color:#96c11f;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 40px;
+}
+.cliente{
+    margin-left: 2%;
+    font-size: 30px;
+    font-family: arial,'Raleway', sans-serif;
+}
+#cliente{
+    margin-left: 450px;
+}
+#prod{
+    margin-left: 100px;
+    margin-right: 90px;
+}
+.libera{
+    width: 20%;
+    height: 50px;
+    font-family: 'Bowlby One', cursive;
+    font-size: 30px;
+    color: #000;
+    border: none;
+    background-color: #676767;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-bottom: 40px;,
+    cursor: pointer;
+}
+#liberar{
+    background-color: #96c11f;
+}
